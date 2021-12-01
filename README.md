@@ -2,6 +2,13 @@
 
 Embedded C mini Project
 
+**Badges**
+
+| Cppcheck Badge | Codacy Badge |
+| --- | --- |
+| |  |
+
+
 ## Folder Structure
 Folder               | Description
 -------------------  | -----------------------------------------
