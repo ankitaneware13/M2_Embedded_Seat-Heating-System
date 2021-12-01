@@ -11,7 +11,23 @@ Seat warmers were first introduced by Cadillac in 1966 to help with backaches. S
 
 Heated seats can make cars much more comfortable in the winter, or for those who often get cold even in the summer. The heater in most vehicles work well, but the car’s seat warmer is close to your body allowing you to warm up faster. In some cases, the seat warms up before the rest of the vehicle does.
 
+## Details requirements
+### High Level Requirements:
+| ID | Description | Status |
+|------| ------| ------|
+| HLR1 | When the two switches are closed, the first LED glows indicating the actuation of the system and the heater. | Implemented
+|HLR2  | Next the analog input from the temperature sensor is received and digitized.| Implemented
+|HLR3  | The hard disk must be 4 GB . |	Implemented
+|HLR4  | The web browser must be Microsoft Internet Explorer with a resolution of at least 800 \* 600. |	Implemented
 
+#### Low Level Requirements:
+
+| ID | Description | Status |
+|-------|------|------|
+| LLR1 | The digitized temperature input is visualized using Pulse Width Modulation.| Implemented 
+| LLR2 | The system runs effectively on Windows 2000 server but it will also run equally well on compatible operating systems.  | Implemented
+| LLR3 | The corresponding temperature values based on the digitized temperature input is transmitted by the UART protocol. Here the data is displayed on the serial monitor.| Implemented 
+ 
  # **Functionality:**
 
 - When the two switches are closed, the first LED glows indicating the actuation of the system and the heater.
@@ -53,6 +69,7 @@ Heated seats can make cars much more comfortable in the winter, or for those who
 Heated front seats not only offer luxurious comfort, relaxation and benefits for physical health, but also increase safety. Heating seats and backrests ensures a high level of well-being and prevents a cramped posture. Winter clothes limiting freedom of movement can be dispensed with. This also results in better operation of the restraint system by reducing the slack in safety belts. People with back or kidney problems benefit from a possible reduction of pain. It is mostly used in cars.
 
 **Where:**
+In car seats
 
 **Why:**
 Heated seats can bring a lot of different benefits beyond just having a nice and warm place to sit. The single greatest benefit that heated seats can bring is the therapeutic warmth it offers. This is great for older drivers or people with a few aches and pains.
