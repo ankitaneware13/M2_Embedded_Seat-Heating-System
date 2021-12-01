@@ -6,7 +6,7 @@ Embedded C mini Project
 
 | Cppcheck Badge | Codacy Badge |
 | --- | --- |
-| |  |
+|[![cppcheck-action-test](https://github.com/ankitaneware13/M2_Embedded_Seat-Heating-System/actions/workflows/cpp-check.yml/badge.svg)](https://github.com/ankitaneware13/M2_Embedded_Seat-Heating-System/actions/workflows/cpp-check.yml) | [![Codacy Badge](https://app.codacy.com/project/badge/Grade/7e4ebfbec411462684e16695d29dd11e)](https://www.codacy.com/gh/ankitaneware13/M2_Embedded_Seat-Heating-System/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ankitaneware13/M2_Embedded_Seat-Heating-System&amp;utm_campaign=Badge_Grade) |
 
 
 ## Folder Structure
